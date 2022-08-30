@@ -1,2 +1,2 @@
 $wsh = New-Object -ComObject WScript.Shell
-$wsh.SendKeys('{NUMLOCK}')
+$wsh.SendKeys('{CAPSLOCK}')
